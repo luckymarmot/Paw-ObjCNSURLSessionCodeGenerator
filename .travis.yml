@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.10'
+before_install:
+- npm install coffee-script
+before_script:
+- ./node_modules/.bin/cake archive
+script:
+- ./node_modules/.bin/cake test
+deploy:
+  provider: releases
+  api_key:
+    secure: Ik7Fang7y6BZVuUUcwW1ZJJJbCiJzDVJAnfzJ6Da3d5g3vJtrzItgD68lORNp60uDO2w6bii3YRkSLwrmRnldF2Rv6B+Y3qSyD97nycDMqqNciG1qzUYfus7nT5YcsHz4+xyZGmkbfh8u5G89msJAWCG7zr8QBeUp6m+3CIxuLM=
+  file: build/ObjCNSURLSessionCodeGenerator.zip
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+    repo: LuckyMarmot/Paw-ObjCNSURLSessionCodeGenerator
