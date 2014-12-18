@@ -119,8 +119,9 @@ ObjCNSURLSessionCodeGenerator = ->
 
 
 ObjCNSURLSessionCodeGenerator.identifier =
-    "com.luckymarmot.PawExtensions.ObjCNSURLSessionCodeGenerator";
+    "com.luckymarmot.PawExtensions.ObjCNSURLSessionCodeGenerator"
 ObjCNSURLSessionCodeGenerator.title =
-    "Objective-C (NSURLSession)";
+    "Objective-C (NSURLSession)"
+ObjCNSURLSessionCodeGenerator.fileExtension = "m"
 
 registerCodeGenerator ObjCNSURLSessionCodeGenerator
