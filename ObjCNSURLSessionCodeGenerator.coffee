@@ -123,5 +123,6 @@ ObjCNSURLSessionCodeGenerator.identifier =
 ObjCNSURLSessionCodeGenerator.title =
     "Objective-C (NSURLSession)"
 ObjCNSURLSessionCodeGenerator.fileExtension = "m"
+ObjCNSURLSessionCodeGenerator.languageHighlighter = "objectivec"
 
 registerCodeGenerator ObjCNSURLSessionCodeGenerator
