@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LuckyMarmot/Paw-ObjCNSURLSessionCodeGenerator.svg?branch=master)](https://travis-ci.org/LuckyMarmot/Paw-ObjCNSURLSessionCodeGenerator)
+[![Build Status](https://travis-ci.org/luckymarmot/Paw-ObjCNSURLSessionCodeGenerator.svg?branch=master)](https://travis-ci.org/luckymarmot/Paw-ObjCNSURLSessionCodeGenerator)
 
 #Objective-C + NSURLSession Code Generator (Paw Extension)
 
@@ -12,7 +12,7 @@ Copyright © 2014 Paw Inc.
 
 ##Contributors
 
-See [Contributors](https://github.com/LuckyMarmot/Paw-ObjCNSURLSessionCodeGenerator/graphs/contributors).
+See [Contributors](https://github.com/luckymarmot/Paw-ObjCNSURLSessionCodeGenerator/graphs/contributors).
 
 ##Credits
 
